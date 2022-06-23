@@ -1,13 +1,12 @@
 package br.com.lonczynski.transformer;
 
+import br.com.lonczynski.SampleModel;
+import com.google.gson.Gson;
 import org.springframework.context.annotation.Bean;
 
-import java.util.HashMap;
-import java.util.List;
-
-public class SampleTransformer extends BaseTransformer {
+public class SampleTransformer {
     @Bean
-    public List<String> doTransform(List<HashMap> hashMapList) {
-        return List.of("teste");
+    public String doTransform(SampleModel model) {
+        return new Gson().toJson(model);
     }
 }

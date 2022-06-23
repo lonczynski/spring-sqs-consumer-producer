@@ -6,10 +6,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lonczynski</groupId>
-	<artifactId>producer</artifactId>
+	<artifactId>consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>${project.packaging}</packaging>
-	<name>producer</name>
+	<name>consumer</name>
 
 	<parent>
 		<groupId>org.apache.camel</groupId>
