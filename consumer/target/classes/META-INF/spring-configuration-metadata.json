@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.lonczynski.config.AppConfig",
+      "sourceType": "com.lonczynski.config.AppConfig"
+    },
+    {
+      "name": "app.scheduler",
+      "type": "com.lonczynski.config.AppConfig$Scheduler",
+      "sourceType": "com.lonczynski.config.AppConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.queue-name",
+      "type": "java.lang.String",
+      "sourceType": "com.lonczynski.config.AppConfig"
+    },
+    {
+      "name": "app.scheduler.cron-expr",
+      "type": "java.lang.String",
+      "sourceType": "com.lonczynski.config.AppConfig$Scheduler"
+    },
+    {
+      "name": "app.scheduler.limit-query",
+      "type": "java.lang.String",
+      "sourceType": "com.lonczynski.config.AppConfig$Scheduler"
+    }
+  ],
+  "hints": []
+}

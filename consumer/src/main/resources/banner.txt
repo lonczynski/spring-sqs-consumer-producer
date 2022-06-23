@@ -1,0 +1,10 @@
+   _____           _____            _
+  / ____|         |  __ \          | |
+ | (___    _ __   | |  | |   __ _  | |_    __ _
+  \___ \  | '_ \  | |  | |  / _` | | __|  / _` |
+  ____) | | |_) | | |__| | | (_| | | |_  | (_| | > DIGITAL-INTEGRATOR
+ |_____/  | .__/  |_____/   \__,_|  \__|  \__,_|
+          | |
+          |_|
+${Ansi.BRIGHT_YELLOW}:: ${spring.application.name}${Ansi.GREEN} :: Spring Boot${spring-boot.formatted-version}${Ansi.BRIGHT_YELLOW} ::
+:: https://spdata.com.br ::${Ansi.DEFAULT}
